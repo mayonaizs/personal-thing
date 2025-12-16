@@ -1,0 +1,131 @@
+html, body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    font-family:lato;
+}
+
+p {
+    margin:0;
+}
+
+.story {
+    width:800px;
+    margin:auto;
+}
+
+.dialogue {
+    position:relative;
+    margin-top: 70px;
+    margin-bottom:20px;
+}
+
+.icon {
+    width:140px;
+    margin:0;
+    margin-top:-35px;
+    padding:0;
+    display:block;
+    object-fit: cover;
+    object-position:top;
+    border-radius:100px;
+    position:absolute;
+}
+.title {
+    position:absolute;
+}
+.name {
+    width:140px;
+    height:20px;
+    vertical-align: middle;
+    text-align:center;
+    background-color:black;
+    color:white;
+    margin-top:94px;
+    z-index:1;
+    position:relative;
+    border-radius:50px;
+}
+
+.msg {
+    padding:25px;
+}
+.txt {
+    background-color:bisque;
+    margin-top:10px;
+    border: 3px solid brown;
+    height:100px;
+    overflow:hidden;
+    border-radius: 25px;
+}
+.txt.plus {
+    padding:0px;
+    margin-top:25px;
+}
+.plus {
+    margin-top:0px;
+}
+.consec {
+    margin-top:25px;
+}
+
+.r .title {
+    right:0;
+}
+.r .txt {
+    margin-right:70px;
+    margin-left:150px;
+    text-align:right;
+    padding-right:60px;
+}
+.r .txt.plus {
+    margin-right:0px;
+    margin-left:150px;
+    text-align:right;
+}
+
+
+.l .txt {
+    margin-left:70px;
+    margin-right:150px;
+    padding-left:60px;
+}
+.l .txt.plus {
+    margin-left:0px;
+    margin-right:150px;
+    text-align:left;
+    padding-left:0;
+}
+
+.double .txt {
+    margin-right:0;
+    margin-left:70px;
+    padding-left:160px;
+}
+.double .txt.plus {
+    padding-left:0px;
+    margin-right:0;
+}
+.double .name {
+    width:240px;
+}
+.double .icon.second {
+    right:0;
+}
+
+.narration {
+    background-color:black;
+    margin:60px 90px 60px 90px;
+    border-radius:25px;
+    color:white;
+    border: 3px solid brown;
+    text-align:center;
+    padding:10px;
+}
+
+.cg {
+    width:100%;
+    margin-top:40px;
+    border-radius:25px;
+    border: 3px solid brown;
+}
