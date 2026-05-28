@@ -1,131 +1,168 @@
-html, body {
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
-    font-family:lato;
-}
-
-p {
-    margin:0;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family:calibri;
 }
 
 .story {
-    width:800px;
-    margin:auto;
+  width: 800px;
+  margin: auto;
+  line-height: 0;
 }
 
 .dialogue {
-    position:relative;
-    margin-top: 70px;
-    margin-bottom:20px;
+  position: relative;
+  margin-top: 4.5em;
+  margin-bottom: 4em;
 }
 
 .icon {
-    width:140px;
-    margin:0;
-    margin-top:-35px;
-    padding:0;
-    display:block;
-    object-fit: cover;
-    object-position:top;
-    border-radius:100px;
-    position:absolute;
+  width: 9em;
+  margin-top: -2.5em;
+  padding: 0;
+  display: block;
+  border: 2px solid #B59D73;
+  border-radius: 100px;
+  position: absolute;
 }
-.title {
-    position:absolute;
+
+.label {
+  position: absolute;
+  margin-top: -0.3em;
 }
+
 .name {
-    width:140px;
-    height:20px;
-    vertical-align: middle;
-    text-align:center;
-    background-color:black;
-    color:white;
-    margin-top:94px;
-    z-index:1;
-    position:relative;
-    border-radius:50px;
+  width: 9em;
+  height: 1.5em;
+  text-align: center;
+  background-color: #0E0E0E;
+  margin-top: 6em;
+  color: white;
+  z-index: 1;
+  position: relative;
+  border: 1px solid #B59D73;
+  border-radius: 50px;
 }
 
-.msg {
-    padding:25px;
+.name p {
+  margin-top: 0.75em;
 }
+
+.shout {
+  font-size: x-large;
+}
+
+.shout p { 
+  line-height:0;
+}
+
+.whisper {
+  font-size: small;
+}
+
 .txt {
-    background-color:bisque;
-    margin-top:10px;
-    border: 3px solid brown;
-    height:100px;
-    overflow:hidden;
-    border-radius: 25px;
+  line-height: 1;
+  height: 100px;
+  background-color: #F0F0E7;
+  border: 3px solid #B59D73;
+  overflow: hidden;
+  border-radius: 25px;
+  overflow-wrap: break-word;
 }
-.txt.plus {
-    padding:0px;
-    margin-top:25px;
+
+.txt p {
+  padding: 1em 5%;
 }
+
 .plus {
-    margin-top:0px;
-}
-.consec {
-    margin-top:25px;
+  margin-top: 3%;
 }
 
-.r .title {
-    right:0;
-}
-.r .txt {
-    margin-right:70px;
-    margin-left:150px;
-    text-align:right;
-    padding-right:60px;
-}
-.r .txt.plus {
-    margin-right:0px;
-    margin-left:150px;
-    text-align:right;
+.right .label {
+  right: 0;
 }
 
-
-.l .txt {
-    margin-left:70px;
-    margin-right:150px;
-    padding-left:60px;
+.right .txt {
+  margin-right: 8%;
+  margin-left: 20%;
+  text-align: right;
+  padding-right: 8%;
 }
-.l .txt.plus {
-    margin-left:0px;
-    margin-right:150px;
-    text-align:left;
-    padding-left:0;
+
+.right .txt.plus {
+  padding-right: 0;
+  margin-right:0;
+}
+
+.left .txt {
+  margin-left: 8%;
+  margin-right: 20%;
+  padding-left: 8%;
+}
+
+.left .txt.plus {
+  padding-left:0;
+  margin-left:0;
 }
 
 .double .txt {
-    margin-right:0;
-    margin-left:70px;
-    padding-left:160px;
+  margin-right: 0;
+  margin-left: 8%;
+  padding-left: 20%;
 }
+
 .double .txt.plus {
-    padding-left:0px;
-    margin-right:0;
+  padding-left: 0;
+  margin-right: 0;
 }
+
 .double .name {
-    width:240px;
+  width: 9em;
 }
+
 .double .icon.second {
-    right:0;
+  right: 0;
 }
 
 .narration {
-    background-color:black;
-    margin:60px 90px 60px 90px;
-    border-radius:25px;
-    color:white;
-    border: 3px solid brown;
-    text-align:center;
-    padding:10px;
+  background-color: #0E0E0E;
+  margin: 5% 10%;
+  border-radius: 25px;
+  color: white;
+  border: 3px solid #B59D73;
+  text-align: center;
+  line-height:normal;
 }
 
 .cg {
-    width:100%;
-    margin-top:40px;
-    border-radius:25px;
-    border: 3px solid brown;
+  width: 100%;
+  border-radius: 25px;
+  border: 3px solid #B59D73;
+}
+
+.skip {
+  line-height:1;
+  text-align: center;
+  width: 100%;
+  margin: 16% 0;
+  color: #B59D73;
+  border: 2px #B59D73;
+  border-style: solid none;
+  font-size: larger;
+}
+
+.caption {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  color: #B59D73;
+  border: 2px #B59D73;
+  border-bottom-style: solid;
+  font-weight: bold;
+  font-size: large;
+}
+
+.dark {
+  filter: brightness(50%);
 }
